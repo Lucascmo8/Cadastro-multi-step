@@ -12,7 +12,7 @@ interface student {
 }
 
 export const useRegisterStore = defineStore('register', () => {
-  const currentStep = ref<number>(4)
+  const currentStep = ref<number>(1)
 
   const currentNameFunctionForm = ref<string>("personalInformation")
 
